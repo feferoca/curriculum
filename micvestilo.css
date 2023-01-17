@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+.degrade {
+    background: linear-gradient(180deg, rgb(141, 99, 247),rgb(195, 162, 239));
+    margin: 0px 20px 200px 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0px 50px 0px 50px;
+    margin: 0px 20px 400px 190px;
+    
+}
+.intro {
+    display: block;
+    margin: auto;
+}
+.nombres {
+    font-family: "Montserrat Alternates";
+    font-weight:400;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.bajada {
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.descripcion {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.icono {
+    max-width: 30px;
+    padding: 20px 10px 30px 0px;
+}
+.perfil {
+    max-width: 100%;
+    height: 100%;
+    position: right;
+}
+.caja {
+    background: linear-gradient(180deg, rgb(141, 99, 247),rgb(195, 162, 239));
+    border-radius: 20px;
+    height: auto;
+    max-width: 90%;
+    padding: 50px;
+    margin: 50px 20px 500px 200px;
+}
+.titulo {
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.botonera {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    max-width: 250px;
+}
+.btn {
+    position: relative;
+    background: linear-gradient(180deg, rgb(236, 242, 48),rgb(220, 238, 176));
+    padding: 5px 5px;
+    width: 180px;
+    color: white;
+    border-radius: 8px;
+    border: 3px outset #e6fb02;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 2px 5px 10px 5px;
+}
+.btn:hover {
+    background: linear-gradient(180deg, rgb(220, 238, 176),rgb(236, 242, 48));
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-style:italic;
+    }
+
+.vacio {
+    max-width: 90%;
+    height: 200px;
+    margin: 200px;
+}
